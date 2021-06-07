@@ -1,0 +1,17 @@
+{
+    "name": "Ads Popups Remover",
+    "version": "1.0",
+    "description": "Ads Popups Remover",
+    "permissions": ["activeTab","declarativeContent","storage"],
+    "content_scripts": [
+        {
+            "matches":[
+                "https://www.businessinsider.com/*"
+            ],
+            "css":["styles.css"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "manifest_version": 2
+}
