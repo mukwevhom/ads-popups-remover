@@ -17,6 +17,7 @@ window.onload = function() {
             }
             break
         }
+        case 'www.foxnews.com':
         case 'www.footyheadlines.com': {
             if(document.querySelector('.fc-ab-root')) {
                 document.querySelector('.fc-ab-root').remove()

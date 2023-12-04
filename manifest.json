@@ -8,7 +8,8 @@
             "matches":[
                 "https://www.businessinsider.com/*",
                 "https://www.dailymail.co.uk/*",
-                "https://www.footyheadlines.com/*"
+                "https://www.footyheadlines.com/*",
+                "https://www.foxnews.com/*"
             ],
             "css":["styles.css"],
             "js": ["content.js"],
