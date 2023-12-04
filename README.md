@@ -5,10 +5,10 @@
 This is a Chrome extension for removing pop ups that requests users to first disable adblockers.
 
 It currently works on the following websites;
-1.[Business Insider](https://www.businessinsider.com)
-2.[Daily Mail](https://www.dailymail.co.uk)
-3.[Footy Headlines](https://www.footyheadlines.com)
-4.[Fox News](https://www.foxnews.com)
+1. [Business Insider](https://www.businessinsider.com)
+2. [Daily Mail](https://www.dailymail.co.uk)
+3. [Footy Headlines](https://www.footyheadlines.com)
+4. [Fox News](https://www.foxnews.com)
 
 ## Installation
 
