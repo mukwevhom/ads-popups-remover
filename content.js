@@ -10,13 +10,7 @@ window.onload = function() {
             }
             break
         }
-        case 'www.dailymail.co.uk': {
-            if (document.querySelector('body').classList.contains('mol-fe-ab-dialog')) {
-                document.querySelector(".trc_popover_aug_container + div").remove()
-                document.querySelector('body').classList.remove('mol-fe-ab-dialog')
-            }
-            break
-        }
+        case 'www.dailymail.co.uk':
         case 'www.foxnews.com':
         case 'www.footyheadlines.com': {
             if(document.querySelector('.fc-ab-root')) {
