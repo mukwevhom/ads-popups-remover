@@ -19,6 +19,16 @@ window.onload = function() {
             }
             break
         }
+        case 'www.makeuseof.com': {
+            console.log(document.querySelector('.fEy1Z2XT'))
+            if(document.querySelector('.fEy1Z2XT')) {
+                console.log("test: www.makeuseof.com")
+                document.querySelector('.fEy1Z2XT').remove()
+                document.querySelector('body').style.overflow = 'auto'
+                document.querySelector('html').style.overflow = 'auto'
+            }
+            break
+        }
         default: 
             console.log(`${currentDomain} not included`)
     }

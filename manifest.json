@@ -9,7 +9,8 @@
                 "https://www.businessinsider.com/*",
                 "https://www.dailymail.co.uk/*",
                 "https://www.footyheadlines.com/*",
-                "https://www.foxnews.com/*"
+                "https://www.foxnews.com/*",
+                "https://www.makeuseof.com/*"
             ],
             "css":["styles.css"],
             "js": ["content.js"],
