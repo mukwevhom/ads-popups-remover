@@ -1,6 +1,6 @@
 window.onload = function() {
     let currentDomain = window.location.hostname
-    console.log("Ads PopUp", currentDomain)
+
     switch(currentDomain) {
         case 'www.businessinsider.com': {
             if (document.querySelector('body').classList.contains('tp-modal-open')) {
@@ -14,9 +14,7 @@ window.onload = function() {
         case 'www.foxnews.com':
         case 'www.footyheadlines.com':
         case 'www.marca.com': {
-            console.log("test")
             if(document.querySelector('.fc-ab-root')) {
-                console.log("test")
                 document.querySelector('.fc-ab-root').remove()
                 document.querySelector('body').style.overflowY = 'auto'
             }
