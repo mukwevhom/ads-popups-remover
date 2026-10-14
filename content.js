@@ -13,7 +13,9 @@ window.onload = function() {
         case 'www.dailymail.co.uk':
         case 'www.foxnews.com':
         case 'www.footyheadlines.com':
-        case 'www.marca.com': {
+        case 'www.marca.com':
+        case 'techcrunch.com':
+        case 'www.theverge.com': {
             if(document.querySelector('.fc-ab-root')) {
                 document.querySelector('.fc-ab-root').remove()
                 document.querySelector('body').style.overflowY = 'auto'

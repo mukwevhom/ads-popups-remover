@@ -9,6 +9,10 @@ It currently works on the following websites;
 2. [Daily Mail](https://www.dailymail.co.uk)
 3. [Footy Headlines](https://www.footyheadlines.com)
 4. [Fox News](https://www.foxnews.com)
+5. [MakeUseOf](https://www.makeuseof.com)
+6. [Marca](https://www.marca.com)
+7. [TechCrunch](https://techcrunch.com)
+8. [The Verge](https://www.theverge.com)
 
 ## Installation
 
